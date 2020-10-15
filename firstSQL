@@ -1,0 +1,48 @@
+INSERT INTO students VALUES
+(1, "Quanda", "Moore", 30, "qmoorewoz@email.com"),
+(2, "Samantha", "Fox", 22, "smfox1999@email.com"),
+(3, "James Taylor", 18, "jtcollege@email.com"),
+(4, "Ray Charles", 25,idcoursesenrollmentidcourseIdstudentIDstudents "rcharles@email.com");
+INSERT INTO Courses VALUES
+(1, "Science"),
+(2, "Math"),
+(3, "History"),
+(4, "Java");
+INSERT INTO enrollment VALUES
+ (1, 2, 4, 3),
+ (2, 3, 1, 4),
+ (1, 3, 2, 4),
+ (4, 3, 2, 1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- REATE TABLE courses(
+-- id INTEGER PRIMARY KEY,
+-- title VARCHAR(100)
+-- );
+-- through/join table
+-- FOREIGN KEY attribure in the cureent table that references the primatey kiy of another table
+-- REFRENCES targetTABLE column with primary key
+-- CREATE TABLE enrollment;
+-- id INTEGER PRIMARY KEY,
+-- courseId INTEGER,
+-- studentID INTEGER,
+-- FOREIGN KEY (courseID) REFERENCES courses (id),
+-- FOREIGN KEY (studentID) REFERENCES students (id),
+--  CREATE TABLE students(
+-- id INTEGER PRIMARY KEY,
+-- firstName VARCHAR(100),
+-- lastName VARCHAR(100),
+-- age INTEGER
+-- ); 
